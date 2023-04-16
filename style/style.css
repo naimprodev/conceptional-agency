@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    /* border: 1px solid red; */
 }
 
 /* nav container style */
@@ -29,41 +30,162 @@
 .banner-container {
     width: 100%;
     height: 100vh;
-    background-image: url("../asset/image/background.jpg");
-    /* linear-gradient(rgba(0,0,0,0.3)rgba(0,0,0,0.4)) */ 
+    background-image: url("../asset/image/background.jpg"),
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
     justify-content: center;
     text-align: center;
     align-items: center;
     display: flex;
+    margin: auto;
+    color: white;
 }
-.title{
+
+.title {
     font-size: 85px;
     font-weight: bold;
 }
-.single{
+
+.single {
     color: red;
 }
-.description{
+
+.description {
     font-size: 25px;
     padding-left: 200px;
     padding-right: 200px;
 }
-.buttons{
+
+/* .buttons{
     margin-top: 10px;
+} */
+
+.btn {
+    padding: 15px 35px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border: 0;
+    font-size: 16px;
+    /* font-weight: bold; */
 }
-.btn-discover{
-    padding:20px 50px;
+
+.btn-discover {
     background-color: red;
     color: white;
-    margin-right: 5px;
-    border: 0;
-    font-size: 18px;
-    font-weight: bold;
+
 }
-.btn-hire{
-    padding:20px 50px;
-    margin-right: 5px;
-    border: 0;
+
+.btn-hire {
+    color: red;
+
+}
+
+/* service container style */
+.service-container {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-image: url("../asset/image/footer-bg.png"),
+        linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.897));
+    background-blend-mode: overlay;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-btn {
+    color: gray;
+    border-radius: 25px;
+}
+
+.service-information {
+    color: white;
+    width: 50%;
+    margin-top: 65px;
+}
+
+.service-title {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.service-description {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+.list {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 25px;
+}
+
+.self-details {
+    display: flex;
+    margin-right: 50px;
+
+}
+
+.self-details img {
+    border-radius: 100px;
+
+
+}
+
+.for-all-details {
+    display: flex;
+
+
+}
+
+.vr-line {
+    border-left: 1px solid red;
+    height: 90px;
+    margin-left: 40px;
+}
+
+.details-btn {
+    border-radius: 25px;
+    color: red;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 11px;
+    margin-left: 8px;
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+/* .skills style{
+    width: 50%;
+    margin-left: 50px;
+} */
+
+
+.two-skills {
+    display: flex;
+}
+
+.skills {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 15px;
+    color: black;
+    padding: 50px;
+}
+.skill-img{
+    width: 50%;
+    padding: 20px;
 }
