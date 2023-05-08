@@ -102,26 +102,29 @@
 .service-information {
     color: white;
     width: 50%;
-    margin-top: 65px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: -110px;
+
 }
 
 .service-title {
     font-size: 45px;
     font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .service-description {
     font-size: 18px;
     font-weight: 100;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .list {
     font-size: 18px;
     font-weight: 100;
-    padding: 25px;
+    padding: 10px;
 }
 
 .self-details {
@@ -164,10 +167,10 @@
 
 }
 
-/* .skills style{
-    width: 50%;
-    margin-left: 50px;
-} */
+/* .skills style */
+.all-skills {
+    margin-top: -135px;
+}
 
 
 .two-skills {
@@ -176,8 +179,8 @@
 
 .skills {
     background-color: white;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     margin: 5px;
     border-radius: 5px;
     text-align: center;
@@ -185,7 +188,44 @@
     color: black;
     padding: 50px;
 }
-.skill-img{
+
+.skill-img {
     width: 50%;
     padding: 20px;
+}
+
+/* call section style */
+.phone-call{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid yellow;
+    gap: 10px;
+}
+.phone-call h6{
+    margin-right: 35px;
+}
+.call-icon{
+    width: 90px;
+}
+.app-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: -70px;
+}
+.app-btn{
+    color: red;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+}
+.app-description{
+    margin-left: 10px;
+    margin-right: 40px;
 }
